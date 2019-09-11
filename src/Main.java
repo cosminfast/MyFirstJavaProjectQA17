@@ -28,13 +28,14 @@ public class Main {
         int sum = x + y;
         float average = sum + 2f;
 
-        x+=y; // x = x + y;
-        x-=y; // x = x - y;
-        x+=2; // x = x + 2;
-        x+=x+=x++ + ++x;
+        x += y; // x = x + y;
+        x -= y; // x = x - y;
+        x += 2; // x = x + 2;
+        x += x += x++ + ++x;
 
-        System.out.println("Numbers: " + x );
-        System.out.println("Numbers: " + y );
+        System.out.println("Numbers: " + x);
+        System.out.println("Numbers: " + y);
+        System.out.println("Numbers: " + y + x);
 
     }
 
