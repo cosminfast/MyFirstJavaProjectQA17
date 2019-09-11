@@ -33,8 +33,8 @@ public class Main {
         x+=2; // x = x + 2;
         x+=x+=x++ + ++x;
 
-
         System.out.println("Numbers: " + x );
+        System.out.println("Numbers: " + y );
 
     }
 
