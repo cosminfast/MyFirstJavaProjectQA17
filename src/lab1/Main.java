@@ -1,3 +1,5 @@
+package lab1;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,8 +14,11 @@ public class Main {
         int nivelInteligenta = 1231231231;
         long nivelEnergie = 435678876546754123L;
         double nivelNevoieAtentie = 1823918238128d;
+        byte aaaa = 127;
 
-
+        short za = 222;
+        short ads = 123;
+        short aaa = (short) (za + ads);
         System.out.println("Despre catelul meu: ");
         System.out.println("culoare este " +
                 culoare +
