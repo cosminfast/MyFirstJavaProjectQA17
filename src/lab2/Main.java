@@ -1,5 +1,7 @@
 package lab2;
 
+import lab2.AnimalRescue.Dog;
+
 public class Main {
 
     public static int memberVariable = 3;
@@ -40,18 +42,27 @@ public class Main {
 //        System.out.println("Numbers: " + y + x);
         // test
 
-        int x = 3;
-        int y = 5;
-        float result = sum(x, y);
-        System.out.println(result);
+//        int x = 3;
+//        int y = 5;
+//        float result = sum(x, y);
+//        System.out.println(result);
+//
+//        result = substract(x, y);
+//
+//        float qq = result*result;
+//        System.out.println(qq);
+//
+//
+//        System.out.println(result);
 
-        result = substract(x, y);
 
-        float qq = result*result;
-        System.out.println(qq);
+        Dog rex = new Dog();
+        rex.setName("Rex");
+        System.out.println(rex.getName());
 
+        Dog azorel = new Dog();
+        azorel.setName("Azorel");
 
-        System.out.println(result);
     }
 
     public static int sum(int first, int second) {

@@ -1,13 +1,12 @@
-package lab2.AnimalRescue;
+package lab4.AnimalRescue;
 
-public class Dog {
-
-    private String color ;
-    private String breed ;
-    private float weight ;
-    private float age ;
-    private char gender ;
-    private String name ;
+public class Animal {
+    private String color;
+    private String breed;
+    private float weight;
+    private float age;
+    private char gender;
+    private String name;
 
     public String getColor() {
         return color;
@@ -50,28 +49,12 @@ public class Dog {
     }
 
 
-
-
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
 
-    public String getName(){
+    public String getName() {
         return name;
     }
-
-    public void bark() {
-        System.out.println("woof!");
-    }
-
-    public void run() {
-        System.out.println("Running...");
-    }
-
-    public void sleep() {
-        System.out.println("zzzZZZzz...");
-    }
-
-
 }

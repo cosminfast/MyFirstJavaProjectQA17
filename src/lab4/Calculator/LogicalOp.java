@@ -1,4 +1,4 @@
-package lab3.Calculator;
+package lab4.Calculator;
 
 public class LogicalOp {
 
@@ -17,5 +17,31 @@ public class LogicalOp {
             return (number + "  " + text);
         }
         return "";
+    }
+
+    int x = 2;
+
+    public void setX(int x) {
+        x = x;
+    }
+
+
+    public void printToHundred(int number) {
+        for (int i = number; i <= 100; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public float getAvregaFromNumber() {
+        float sum = 0;
+        int x = 111;
+        int count = 0;
+        while (x <= 8899) {
+            sum = sum + x;
+            x++;
+            count++;
+        }
+        return (sum / count);
+
     }
 }
