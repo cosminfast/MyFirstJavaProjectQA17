@@ -44,4 +44,52 @@ public class LogicalOp {
         return (sum / count);
 
     }
+
+    public float getAverageFromNumber(int x, int y) {
+        float sum = 0;
+        int count = 0;
+        while (x <= y) {
+            if (x % 7 == 0) {
+                sum += x;
+                count++;
+            }
+            x++;
+        }
+
+        return sum / count;
+
+
+    }
+
+    public void cozaLoza() {
+        int start = 1;
+        int finnish = 110;
+
+        while (start <= finnish) {
+
+            if (start % 3 == 0)
+                System.out.print("Coza ");
+            else if (start % 5 == 0)
+                System.out.print("Loza ");
+            else if (start % 7 == 0)
+                System.out.print("Woza ");
+            else if (start % 3 == 0 && start % 5 == 0)
+                System.out.print("CozaLoza ");
+            else if (start % 3 == 0 && start % 7 == 0)
+                System.out.print("CozaWoza ");
+            else if (start % 5 == 0 && start % 7 == 0)
+                System.out.print("WozaLoza ");
+            else if (start %3 == 0 && start % 5 == 0 && start % 7 == 0)
+                System.out.print("CozaLozaWoza ");
+            else
+                System.out.print(start + " ");
+
+            if (start % 11 == 0)
+                System.out.println();
+
+            start++;
+
+        }
+
+    }
 }
