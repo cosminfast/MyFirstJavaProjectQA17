@@ -13,9 +13,11 @@ public class Main {
       float[] x = new float[3];
        x[0]=1;
 
-        op.printArray(newArray);
+        //op.printArray(newArray);
+        System.out.println(op.averageArray(newArray));
 
 //Write a Java program to calculate the
 // average value of array elements.
     }
+
 }

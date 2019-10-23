@@ -16,4 +16,14 @@ public class LogicalOp {
                     (i ) + " avem valoarea " +
                     array[i]);
     }
+
+    public float averageArray(int[] anArray){
+        float sum = 0;
+        for (int i = 0; i < anArray.length; i++){
+            sum = sum + anArray[i];
+
+        }
+        return sum/anArray.length;
+    }
 }
+
