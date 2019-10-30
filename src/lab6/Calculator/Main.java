@@ -12,12 +12,9 @@ public class Main {
         myList.add(3);
         myList.add(2);
         myList.add(5);
-        System.out.println(myList);
 
         LogicalOp op = new LogicalOp();
+        op.printFromPosition(myList, -4);
 
-        op.addToList(myList, 4);
-
-        System.out.println(myList);
     }
 }
