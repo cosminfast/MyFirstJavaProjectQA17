@@ -2,6 +2,7 @@ package lab6.Calculator;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -10,11 +11,16 @@ public class Main {
 
         myList.add(1);
         myList.add(3);
-        myList.add(2);
+        myList.add(0);
+        myList.add(7);
+        myList.add(6);
         myList.add(5);
 
+
+        System.out.println(myList.get(100));
         LogicalOp op = new LogicalOp();
-        op.printFromPosition(myList, -4);
+        op.printListValuesReversed(myList);
+
 
     }
 }

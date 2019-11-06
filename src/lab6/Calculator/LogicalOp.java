@@ -28,6 +28,17 @@ public class LogicalOp {
         }
     }
 
+    public void printListValuesReversed(List<Integer> myList){
+
+        for (int i = myList.size()-1; i >= 0; i--){
+            System.out.println(myList.get(i));
+        }
+
+    }
+
+
+
+
 }
 ///Scrieti o metoda Java, care sa primeasca parametru o
 // Lista, si sa afiseze, pe rand, toate valorile din
